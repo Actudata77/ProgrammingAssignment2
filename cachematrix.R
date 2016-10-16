@@ -19,10 +19,7 @@ makeCacheMatrix <- function(x = matrix()){
       getInverse <- function() inv
       list(set = set, get = get, setInverse = setInverse,
       getInverse = getInverse)
-
 }
-
-
 
 ## In turn, this second function is going to compute the inverse
 ## of the given matrix below stored under makeCacheMatrix, using 
@@ -44,4 +41,3 @@ cacheSolve <- function(x, ...) {
        
 }  
   
-
